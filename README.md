@@ -13,6 +13,8 @@ The problem is to reduce the cost due to unnecessary repairs. So it is required 
 
 # Tech Stack Used
 
-Python
-Machine learning algorithms
-MongoDB
+1.Python
+
+2.Machine learning algorithms
+
+3.MongoDB
