@@ -1,10 +1,11 @@
 import pymongo
 import pandas as pd
 import json
+import os
 # Provide the mongodb localhost url to connect python to mongodb.
-client = pymongo.MongoClient("mongodb+srv://pranaliyangandul:Pranali912@cluster0.uwafxej.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient(os.getenv("MONGO_DB_URL"))
 
-DATA_FILE_PATH=r"C:\Users\91930\Documents\Sensor fault prediction project\aps_failure_training_set1.csv"
+DATA_FILE_PATH=r"aps_failure_training_set1.csv"
 DATABASE_NAME="aps"
 COLLECTION_NAME="sensor"
 
