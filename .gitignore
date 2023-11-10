@@ -2,3 +2,5 @@ artifact
 sensorvenv
 logs
 .env
+prediction
+saved_models
