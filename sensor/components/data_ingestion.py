@@ -14,7 +14,7 @@ class DataIngestion:
             self.data_ingestion_config=data_ingestion_config
         except Exception as e:
             raise SensorException(e,sys)
-        
+       
     def initiate_data_ingestion(self)->artifact_entity.DataIngestionArtifact:
         try:
             logging.info(f"Exporting collection data as pandas dataframe")
@@ -26,7 +26,7 @@ class DataIngestion:
             logging.info(f"replace na with Nan")
             #replace na with Nan
             df.replace("na",np.NaN,inplace=True)
-
+            
             #Save data in feature store
             logging.info("Create feature store folder if not available")
             #Create feature store folder if not available
