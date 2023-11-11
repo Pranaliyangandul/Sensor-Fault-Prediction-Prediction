@@ -49,7 +49,7 @@ jobs:
 
  Continuous-Deployment:
   needs: build-and-push-ecr-image
-  name: EC@ is self-hosted machine
+  name: Continuous deployment
   runs-on: self-hosted
   steps:
   - name: Checkout
