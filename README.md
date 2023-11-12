@@ -18,3 +18,6 @@ The problem is to reduce the cost due to unnecessary repairs. So it is required 
 2.Machine learning algorithms
 
 3.MongoDB
+
+4.AWS
+
