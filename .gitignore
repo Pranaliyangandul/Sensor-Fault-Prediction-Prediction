@@ -4,3 +4,4 @@ logs
 .env
 prediction
 saved_models
+*.egg-info
